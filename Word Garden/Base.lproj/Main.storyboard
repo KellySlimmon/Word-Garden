@@ -45,8 +45,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                         <connections>
-                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="1gx-wK-R9W"/>
-                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4kp-7W-Cm2"/>
+                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Opv-Nx-fnh"/>
                                             <action selector="guessLetterFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="2K3-NP-oko"/>
                                         </connections>
                                     </textField>
@@ -85,7 +84,7 @@
                     <connections>
                         <outlet property="flowerImageView" destination="aPA-57-k8Y" id="mka-G1-2yy"/>
                         <outlet property="guessCountLabel" destination="OLO-me-OXy" id="AVB-Gu-uxQ"/>
-                        <outlet property="guessLetterButton" destination="dM3-bD-vp8" id="ihv-r6-Uy3"/>
+                        <outlet property="guessLetterButton" destination="dM3-bD-vp8" id="EYQ-HT-0xk"/>
                         <outlet property="guessedLetterField" destination="SwA-gs-BPb" id="zEr-Rk-QJ6"/>
                         <outlet property="playAgainButton" destination="PwJ-vS-Dkh" id="a6Q-SO-6kP"/>
                         <outlet property="userGuessLabel" destination="CaF-Ya-68K" id="hmz-6y-8vj"/>

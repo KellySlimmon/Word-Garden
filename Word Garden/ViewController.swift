@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         guessedLetterField.resignFirstResponder()
         guessedLetterField.text = ""
     }
+    
     func formatUserGuessLabel(){
         var revealedWord = ""
         lettersGuessed += guessedLetterField.text!
@@ -86,14 +87,16 @@ class ViewController: UIViewController {
             guessLetterButton.isEnabled = false
         }
     }
+    
     @IBAction func doneKeyPressed(_ sender: UITextField) {
         guessALetter()
-        print("guessed a letter")
+        print("This is done key pressed.")
         updateUIAfterGuess()
     }
+    
     @IBAction func guessButtonPressed(_ sender: UIButton) {
         guessALetter()
-        print("different")
+        print("This is guess button pressed.")
         updateUIAfterGuess()
     }
     
